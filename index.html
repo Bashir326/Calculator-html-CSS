@@ -8,36 +8,44 @@
 </head>
 <body>
 
-    <fieldset style="width: 30px; border:3px solid black; padding: 2px" >
-    <form action="clc">
-
-        <input type="text" name="display" style="width: 325px; height: 50px; background-color: olive; opacity: 0.5; color:white"><br>
+    <fieldset style="width: 100px; border: 1px solid black; background-color: #1C1C1C;">
+    <form>
+    <div class="display">
+        <input type="text" name="display" style="width: 325px; height: 50px; background-color: #A7AF7C; color:white; text-align: right;"><br>
+    </div>
+    <div class="first-row">
         <input class="btn" type="button" value="c" style="background-color: red; width: 160px; height: 50px;">
         <input class="btn" type="button" value="/">
-        <input class="btn" type="button" value="*"><br>
+        <input class="btn" type="button" value="*">
+    </div>    
+    <br>
+    <div class="second-row">
         <input class="btn" type="button" value="7">
         <input class="btn" type="button" value="8">
         <input class="btn" type="button" value="9">
-        <input class="btn" type="button" value="-"><br>
+        <input class="btn" type="button" value="-">
+    </div>
+    <br>
+    <div class="third-row">
         <input class="btn" type="button" value="4" >
         <input class="btn" type="button" value="5">
         <input class="btn" type="button" value="6">
-        
-       <input class="btn" type="button" value="+">
+    </div>
+    <div class="plus-button">
+       <input class="btn" id="plus-btn" type="button" value="+">
+    </div>
     <br>
-        <div class="div">
-            
+    <div class="forth-row">    
         <input class="btn" type="button" value="1" >
         <input class="btn" type="button" value="2">
         <input class="btn" type="button" value="3">
-        <input class="btn" type="button" value="Del">
        
     </div>
-        <input class="btn" type="button" value="0">
+    <div class="last-row">
+        <input class="btn" id="zero" type="button" value="0">
         <input class="btn" type="button" value="00">
         <input class="btn" type="button" value=".">
         <input class="btn" type="button" value="=" style="background-color: blue;">
-        
     </div>
 
     </form>
@@ -45,3 +53,4 @@
     
 </body>
 </html>
+

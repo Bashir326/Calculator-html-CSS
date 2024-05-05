@@ -1,29 +1,63 @@
 body{
     margin: 0px;
     padding: opx;
-    background-color: gray;
-    
-
-    /* background-color: #011627; */
-    /* color: #fdfffc; */
-    text-align: center;
-    
+    background-color: black;
+}
+form {
+    position: relative;
+    background-color: #1C1C1C;
+}
+#plus-btn {
+    position: absolute;
+    height: 105px;
+    right: 3px;
+    bottom: 56px;
 }
 input{
     width: 75px;
     height: 50px;
-    font-size: 45px;
+    font-size: 25px;
     border-radius: 10px;
-    
     margin: 3px;
-    background-color: gray;
+    background-color: #404040;
     color:white;
 }
 fieldset{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
+    margin: 100px auto;
+    border-radius: 10px;
+
 }
+
+.forth-row{
+    margin-right: 85px;
+    display: block;
+}
+.third-row {
+    float: left;
+
+}
+.second-row {
+    float: left;
+}
+.first-row {
+    float: left;
+
+}
+
+.plus-btn {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
 
     
 
